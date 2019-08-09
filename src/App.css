@@ -1,4 +1,61 @@
+* {
+  margin: 0 auto;
+  font-family: "Imprima", sans-serif;
+}
 .App {
-  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 
+#quote-box {
+  width: 60%;
+  border-radius: 0.2rem;
+  display: block;
+  padding: 2rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 15%;
+  background-color: snow;
+}
+
+#text {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+#author {
+  text-align: right;
+  margin: 20px 0 30px 10px;
+  font-size: 1.5rem;
+}
+
+#text i {
+  padding-right: 0.8rem;
+}
+
+#tweet-quote {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border-style: none;
+}
+
+#new-quote {
+  float: right;
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+  border-radius: 4px;
+  border-style: none;
+}
+
+#my-name {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+}

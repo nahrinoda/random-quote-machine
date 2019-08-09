@@ -10,7 +10,7 @@ class App extends Component {
       quotes: [],
       quoteText: "",
       quoteAuthor: "",
-      mainColor: "",
+      mainColor: "#d75faf",
       counter: 0
     };
 
@@ -28,8 +28,7 @@ class App extends Component {
             isLoaded: true,
             quotes: res.quotes,
             quoteText: res.quotes[0].quote,
-            quoteAuthor: res.quotes[0].author,
-            counter: this.state.counter + 1
+            quoteAuthor: res.quotes[0].author
           });
         },
         error => {
@@ -43,7 +42,7 @@ class App extends Component {
 
   handleChange() {
     this.randomQuote();
-    // this.randomColor();
+    this.randomColor();
   }
 
   randomQuote = () => {
@@ -79,21 +78,72 @@ class App extends Component {
       "#00af5f",
       "#008787"
     ];
+
+    let chosenColor = colors[this.state.counter];
+
+    this.setState({
+      mainColor: chosenColor,
+      counter: this.state.counter + 1
+    });
+
+    if (this.state.counter === colors.length) {
+      this.setState({
+        mainColor: this.state.mainColor,
+        counter: 0
+      });
+    }
+
+    if (this.state.counter > colors.length) {
+      this.setState({
+        mainColor: this.state.mainColor,
+        counter: 0
+      });
+    }
   };
 
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{ backgroundColor: this.state.mainColor }}>
         <div id="quote-box">
-          <p id="text">{this.state.quoteText}</p>
-          <p id="author"> - {this.state.quoteAuthor}</p>
+          <i id="text" style={{ color: this.state.mainColor }}>
+            <i className="fas fa-quote-left" />
+            {this.state.quoteText}
+          </i>
+          <p id="author" style={{ color: this.state.mainColor }}>
+            {" "}
+            - {this.state.quoteAuthor}
+          </p>
           <div>
-            <button id="new-quote" onClick={this.handleChange}>
+            <button
+              id="new-quote"
+              onClick={this.handleChange}
+              style={{ backgroundColor: this.state.mainColor, color: "white" }}
+            >
               New Qoute
             </button>
-            <button id="tweet-quote">Tweet</button>
+            <a
+              href={`https://twitter.com/intent/tweet?text=" ${
+                this.state.quoteText
+              }" -- ${this.state.quoteAuthor}. `}
+              target="_blank"
+              title="Post this qoute on twitter!"
+              rel="noopener noreferrer"
+            >
+              <button
+                id="tweet-quote"
+                style={{
+                  backgroundColor: this.state.mainColor,
+                  color: "white"
+                }}
+              >
+                <i className="fab fa-twitter" />
+              </button>
+            </a>
           </div>
         </div>
+        <i>
+          <div id="my-name">Random Quote Machine by Nahrin Oda</div>
+        </i>
       </div>
     );
   }
