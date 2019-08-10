@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.16efef5e.chunk.css",
-    "main.js": "/static/js/main.1c053185.chunk.js",
-    "main.js.map": "/static/js/main.1c053185.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.d8c4d936.chunk.js": "/static/js/2.d8c4d936.chunk.js",
-    "static/js/2.d8c4d936.chunk.js.map": "/static/js/2.d8c4d936.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5841e2125155946686ac044162ac3a4a.js": "/precache-manifest.5841e2125155946686ac044162ac3a4a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.16efef5e.chunk.css.map": "/static/css/main.16efef5e.chunk.css.map"
+    "main.css": "/nahrinoda/random-quote-machine/static/css/main.16efef5e.chunk.css",
+    "main.js": "/nahrinoda/random-quote-machine/static/js/main.87cf3dc5.chunk.js",
+    "main.js.map": "/nahrinoda/random-quote-machine/static/js/main.87cf3dc5.chunk.js.map",
+    "runtime~main.js": "/nahrinoda/random-quote-machine/static/js/runtime~main.c01bb530.js",
+    "runtime~main.js.map": "/nahrinoda/random-quote-machine/static/js/runtime~main.c01bb530.js.map",
+    "static/js/2.d8c4d936.chunk.js": "/nahrinoda/random-quote-machine/static/js/2.d8c4d936.chunk.js",
+    "static/js/2.d8c4d936.chunk.js.map": "/nahrinoda/random-quote-machine/static/js/2.d8c4d936.chunk.js.map",
+    "index.html": "/nahrinoda/random-quote-machine/index.html",
+    "precache-manifest.61011dbadc08312d34923f8fe0efaced.js": "/nahrinoda/random-quote-machine/precache-manifest.61011dbadc08312d34923f8fe0efaced.js",
+    "service-worker.js": "/nahrinoda/random-quote-machine/service-worker.js",
+    "static/css/main.16efef5e.chunk.css.map": "/nahrinoda/random-quote-machine/static/css/main.16efef5e.chunk.css.map"
   }
 }
