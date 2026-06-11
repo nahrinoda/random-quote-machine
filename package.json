@@ -59,7 +59,8 @@
     "webpack-dev-middleware": "5.3.4",
     "got": "11.8.5",
     "node-notifier": "8.0.1",
-    "uuid": "11.1.1"
+    "uuid": "11.1.1",
+    "react-dev-utils": "11.0.4"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
