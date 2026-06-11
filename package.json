@@ -49,7 +49,8 @@
     "nth-check": "2.0.1",
     "sockjs": "0.3.24",
     "yargs-parser": "13.1.2",
-    "serialize-javascript": "6.0.2"
+    "serialize-javascript": "6.0.2",
+    "tmp": "0.2.6"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
