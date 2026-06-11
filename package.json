@@ -39,7 +39,8 @@
     "node-forge": "1.4.0",
     "@babel/runtime": "7.26.10",
     "cross-spawn": "6.0.6",
-    "micromatch": "4.0.8"
+    "micromatch": "4.0.8",
+    "braces": "3.0.3"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
