@@ -36,7 +36,8 @@
   },
   "overrides": {
     "shell-quote": "$shell-quote",
-    "node-forge": "1.4.0"
+    "node-forge": "1.4.0",
+    "@babel/runtime": "7.26.10"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
