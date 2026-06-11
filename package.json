@@ -51,7 +51,8 @@
     "yargs-parser": "13.1.2",
     "serialize-javascript": "6.0.2",
     "tmp": "0.2.6",
-    "flatted": "3.4.2"
+    "flatted": "3.4.2",
+    "qs": "6.14.1"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
