@@ -35,7 +35,8 @@
     ]
   },
   "overrides": {
-    "shell-quote": "$shell-quote"
+    "shell-quote": "$shell-quote",
+    "node-forge": "1.4.0"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
