@@ -58,7 +58,8 @@
     "immer": "9.0.6",
     "postcss": "8.5.15",
     "browserslist": "4.28.2",
-    "webpack-dev-server": "5.2.4"
+    "webpack-dev-server": "5.2.4",
+    "@tootallnate/once": "2.0.1"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
