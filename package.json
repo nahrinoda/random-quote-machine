@@ -52,7 +52,7 @@
     "serialize-javascript": "6.0.2",
     "tmp": "0.2.6",
     "flatted": "3.4.2",
-    "qs": "6.14.1",
+    "qs": "6.15.2",
     "form-data": "2.5.4"
   },
   "devDependencies": {
