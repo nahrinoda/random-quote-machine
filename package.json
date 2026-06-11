@@ -46,7 +46,8 @@
     "loader-utils": "1.4.2",
     "minimatch": "3.1.4",
     "terser": "4.8.1",
-    "nth-check": "2.0.1"
+    "nth-check": "2.0.1",
+    "sockjs": "0.3.24"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
