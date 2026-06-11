@@ -38,7 +38,8 @@
     "shell-quote": "$shell-quote",
     "node-forge": "1.4.0",
     "@babel/runtime": "7.26.10",
-    "cross-spawn": "6.0.6"
+    "cross-spawn": "6.0.6",
+    "micromatch": "4.0.8"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
