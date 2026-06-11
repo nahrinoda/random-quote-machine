@@ -50,7 +50,8 @@
     "sockjs": "0.3.24",
     "yargs-parser": "13.1.2",
     "serialize-javascript": "6.0.2",
-    "tmp": "0.2.6"
+    "tmp": "0.2.6",
+    "flatted": "3.4.2"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
