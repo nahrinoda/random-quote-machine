@@ -55,7 +55,9 @@
     "got": "11.8.5",
     "uuid": "11.1.1",
     "react-dev-utils": "11.0.4",
-    "immer": "9.0.6"
+    "immer": "9.0.6",
+    "postcss": "8.5.15",
+    "browserslist": "4.28.2"
   },
   "devDependencies": {
     "shell-quote": "^1.8.4"
